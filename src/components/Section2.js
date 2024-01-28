@@ -20,7 +20,7 @@ const Section2 = () => {
   return (
     <div className="container">
       <h2>Section 2</h2>
-      <form id="info-form-ref" onSubmit={handleSubmit}>
+      <form id="info-form" onSubmit={handleSubmit}>
         <label htmlFor="full_name">Full Name:</label>
         <input type="text" id="full_name" name="full_name" ref={fullNameRef} required />
 
